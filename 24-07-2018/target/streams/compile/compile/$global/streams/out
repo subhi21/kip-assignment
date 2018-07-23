@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/24-07-2018/src/main/scala/com/knoldus/UrlExtractor.scala:25:40: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: String[0m
+[0m[[0m[31merror[0m] [0m[0m  def extractor(url: String): String = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
