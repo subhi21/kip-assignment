@@ -1,0 +1,61 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/knoldus/IdeaProjects/25-07-2018/src/main/scala/com/knoldus/Equality.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/knoldus/IdeaProjects/25-07-2018/src/main/scala/com/knoldus/Equality.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/knoldus/IdeaProjects/25-07-2018/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 11caaaad for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/knoldus/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/knoldus/IdeaProjects/25-07-2018/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.762829543 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.knoldus.Point...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.knoldus.Point)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.knoldus.ColoredPoint by com.knoldus.Point[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.knoldus.ColoredPoint, com.knoldus.Point)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.knoldus.Point,ModifiedNames(changes = UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(Point,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(com;knoldus;Point;init;,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(y,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(x,[Default]))) invalidates 2 classes due to The com.knoldus.Point has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(Point,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(com;knoldus;Point;init;,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(y,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(x,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.knoldus.ColoredPoint, com.knoldus.Point)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.knoldus.Color...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.knoldus.Color)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.knoldus.Color)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.knoldus.Color,ModifiedNames(changes = UsedName(ValueOrdering,[Default]), UsedName(synchronized,[Default]), UsedName(eq,[Default]), UsedName(Green,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(nextId,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(Indigo,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(==,[Default]), UsedName(withName,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(Violet,[Default]), UsedName(equals,[Default]), UsedName(readResolve,[Default]), UsedName(ValueSet,[Default]), UsedName(nextName,[Default]), UsedName(maxId,[Default]), UsedName(Val,[Default]), UsedName(Yellow,[Default]), UsedName(apply,[Default]), UsedName(asInstanceOf,[Default]), UsedName(Color,[Default]), UsedName(getClass,[Default]), UsedName(Orange,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Value,[Default]), UsedName(!=,[Default]), UsedName(Red,[Default]), UsedName(Blue,[Default]), UsedName(values,[Default]), UsedName($isInstanceOf,[Default]))) invalidates 1 classes due to The com.knoldus.Color has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(ValueOrdering,[Default]), UsedName(synchronized,[Default]), UsedName(eq,[Default]), UsedName(Green,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(nextId,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(Indigo,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(==,[Default]), UsedName(withName,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(Violet,[Default]), UsedName(equals,[Default]), UsedName(readResolve,[Default]), UsedName(ValueSet,[Default]), UsedName(nextName,[Default]), UsedName(maxId,[Default]), UsedName(Val,[Default]), UsedName(Yellow,[Default]), UsedName(apply,[Default]), UsedName(asInstanceOf,[Default]), UsedName(Color,[Default]), UsedName(getClass,[Default]), UsedName(Orange,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Value,[Default]), UsedName(!=,[Default]), UsedName(Red,[Default]), UsedName(Blue,[Default]), UsedName(values,[Default]), UsedName($isInstanceOf,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.knoldus.Color)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.knoldus.ColoredPoint...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.knoldus.ColoredPoint)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.knoldus.ColoredPoint)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.knoldus.ColoredPoint,ModifiedNames(changes = UsedName(canEqual,[Default]), UsedName(ColoredPoint,[Default]), UsedName(synchronized,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(color,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(com;knoldus;ColoredPoint;init;,[Default]), UsedName(y,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(x,[Default]))) invalidates 1 classes due to The com.knoldus.ColoredPoint has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(canEqual,[Default]), UsedName(ColoredPoint,[Default]), UsedName(synchronized,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(color,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(com;knoldus;ColoredPoint;init;,[Default]), UsedName(y,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(x,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.knoldus.ColoredPoint)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
