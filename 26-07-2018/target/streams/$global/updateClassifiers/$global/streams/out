@@ -1,0 +1,55 @@
+[debug] :: resolving dependencies :: 26-07-2018#26-07-2018$sources;0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [runtime]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [test]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [runtime]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile-internal]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [optional]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [runtime-internal]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [runtime]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [test-internal]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [test]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [runtime]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [compile]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [optional]
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for 26-07-2018#26-07-2018$sources;0.1 [scala-tool]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] :: resolution report :: resolve 2ms :: artifacts dl 1ms
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 compile produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-compile.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 runtime produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-runtime.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 test produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-test.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 provided produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-provided.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 optional produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-optional.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 compile-internal produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-compile-internal.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 runtime-internal produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-runtime-internal.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 test-internal produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-test-internal.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 plugin produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-plugin.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 pom produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-pom.xml
+[debug] 	report for 26-07-2018#26-07-2018$sources;0.1 scala-tool produced in /home/knoldus/IdeaProjects/26-07-2018/target/scala-2.12/resolution-cache/reports/26-07-2018-26-07-2018$sources-scala-tool.xml
+[debug] 	resolve done (2ms resolve - 1ms download)
