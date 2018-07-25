@@ -1,44 +1,37 @@
+
 package com.knoldus
 import java.io.File
-
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Failure, Success}
-object  Futurex extends App {
+object  FolderPractice extends App {
 
-  def getFilesAndFolder(directoryName: String) = Future{
+  def getFilesAndFolder(directoryName: String) = Future {
     val files: File = new File(directoryName)
-    val filesRes = files.listFiles
-    filesRes.map(f => if (f.isFile) f.getName else {
+    val fileList = files.listFiles
+    print(fileList.map(f => if (f.isFile) f.getName else {
 
-      val s=f.getAbsoluteFile
-      s:String=> {
-        val files1: File = new File(s)
-        val fileRes1=files1.listFiles
-        fileRes1
-
-      }.map(f1=>"/folder"+f1.getName).mkString(" ,")
-
-    }).toList
-
-  }
+      var fileArray = getSubFolder(f.getAbsolutePath)
+      fileArray.map(file => "Folder3/" + file.getName).mkString(", ")
+    }).toList)
 
 
+    def getSubFolder(value: String): Array[File] = {
+      val files: File = new File(value)
+      if (files.exists()) {
+        val fileList = files.listFiles
+        fileList
+      }
+      else
+        Array[File]()
 
-  /*def getSubFolder(str: String):Unit =Future {
-    val files: File = new File(str)
-    if (files.exists()) {
-      val filesRes = files.listFiles
-      filesRes
     }
-  }*/
-
+  }
   val result=getFilesAndFolder("/home/knoldus/Documents/Folder1")
-
   result.onComplete{
-    case Success(res) => println(res)
+    case Success(listOfFiles) => println(listOfFiles)
     case Failure(ex)  => println(ex.getStackTrace)
   }
-  Thread.sleep(3000)
-
+  Thread.sleep(4000)
 }
+
