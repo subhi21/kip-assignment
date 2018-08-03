@@ -1,0 +1,1289 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/actor/TweetWorker.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>
+</span>2 <span style=''>package com.knoldus.actor
+</span>3 <span style=''>
+</span>4 <span style=''>
+</span>5 <span style=''>import akka.actor.Actor
+</span>6 <span style=''>import akka.event.{Logging, LoggingAdapter}
+</span>7 <span style=''>import com.knoldus.app.Tweet
+</span>8 <span style=''>
+</span>9 <span style=''>class TweetWorker extends Actor {
+</span>10 <span style=''>
+</span>11 <span style=''>    val log: LoggingAdapter = </span><span style='background: #AEF1AE'>Logging(context.system,classOf[TweetWorker])</span><span style=''>
+</span>12 <span style=''>    var msgCounter1 =</span><span style='background: #AEF1AE'>0</span><span style=''>
+</span>13 <span style=''>    var msgCounter2 =</span><span style='background: #AEF1AE'>0</span><span style=''>
+</span>14 <span style=''>    override def receive : PartialFunction[Any, Unit] = {
+</span>15 <span style=''>
+</span>16 <span style=''>      case msg: Tweet if </span><span style='background: #AEF1AE'>msg.friendsCount &gt; 500</span><span style=''> =&gt; </span><span style='background: #AEF1AE'>msgCounter1 += 1</span><span style=''>
+</span>17 <span style=''>        </span><span style='background: #AEF1AE'>log.info(s&quot;worker id ${self.path.toString} processed $msgCounter1  tweets with friends count ${msg.friendsCount}&quot;)</span><span style=''>
+</span>18 <span style=''>        </span><span style='background: #AEF1AE'>sender() ! s&quot;worker id ${self.path.toString} processed $msgCounter1 tweets with friends count ${msg.friendsCount}&quot;</span><span style=''>
+</span>19 <span style=''>
+</span>20 <span style=''>      case msg: Tweet if </span><span style='background: #AEF1AE'>msg.friendsCount &lt; 500</span><span style=''> =&gt; </span><span style='background: #AEF1AE'>msgCounter2 += 1</span><span style=''>
+</span>21 <span style=''>        </span><span style='background: #AEF1AE'>log.info(s&quot;worker id ${self.path.toString} processed $msgCounter2  tweets with friends count ${msg.friendsCount}&quot;)</span><span style=''>
+</span>22 <span style=''>        </span><span style='background: #AEF1AE'>sender() ! s&quot;worker id ${self.path.toString} processed $msgCounter2 tweets with friends count ${msg.friendsCount}&quot;</span><span style=''>
+</span>23 <span style=''>
+</span>24 <span style=''>      case _ =&gt; </span><span style='background: #AEF1AE'>log.info(&quot;Wrong Tweet Message&quot;)</span><span style=''>
+</span>25 <span style=''>        </span><span style='background: #AEF1AE'>sender() ! &quot;Invalid Message&quot;</span><span style=''>
+</span>26 <span style=''>
+</span>27 <span style=''>
+</span>28 <span style=''>    }
+</span>29 <span style=''>
+</span>30 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          200
+          -
+          214
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.ActorContext.system
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.context.system
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          192
+          -
+          236
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.event.Logging.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.event.Logging.apply[Class[com.knoldus.actor.TweetWorker]](TweetWorker.this.context.system, classOf[com.knoldus.actor.TweetWorker])(event.this.LogSource.fromAnyClass[com.knoldus.actor.TweetWorker])
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          199
+          -
+          199
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          akka.event.LogSource.fromAnyClass
+        </td>
+        <td style="background: #AEF1AE">
+          event.this.LogSource.fromAnyClass[com.knoldus.actor.TweetWorker]
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          215
+          -
+          235
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          classOf[com.knoldus.actor.TweetWorker]
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          258
+          -
+          259
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          0
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          281
+          -
+          282
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          0
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          80
+        </td>
+        <td>
+          339
+          -
+          339
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.$anonfun.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new $anonfun()
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          367
+          -
+          389
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Long.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          msg.friendsCount.&gt;(500)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          393
+          -
+          409
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.msgCounter1_=
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter1_=(TweetWorker.this.msgCounter1.+(1))
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          393
+          -
+          409
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter1.+(1)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          429
+          -
+          440
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;worker id &quot;
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          35
+        </td>
+        <td>
+          530
+          -
+          531
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          38
+        </td>
+        <td>
+          513
+          -
+          529
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.app.Tweet.friendsCount
+        </td>
+        <td style="background: #AEF1AE">
+          msg.friendsCount
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          40
+        </td>
+        <td>
+          418
+          -
+          532
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.log.info(scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot;  tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter1, msg.friendsCount))
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          34
+        </td>
+        <td>
+          483
+          -
+          512
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;  tweets with friends count &quot;
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          37
+        </td>
+        <td>
+          472
+          -
+          483
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.msgCounter1
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter1
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          36
+        </td>
+        <td>
+          441
+          -
+          459
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.toString
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self.path.toString()
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          39
+        </td>
+        <td>
+          427
+          -
+          531
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot;  tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter1, msg.friendsCount)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          460
+          -
+          472
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; processed &quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          50
+        </td>
+        <td>
+          550
+          -
+          550
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          41
+        </td>
+        <td>
+          541
+          -
+          549
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          44
+        </td>
+        <td>
+          608
+          -
+          636
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; tweets with friends count &quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          47
+        </td>
+        <td>
+          597
+          -
+          608
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.msgCounter1
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter1
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          46
+        </td>
+        <td>
+          566
+          -
+          584
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.toString
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self.path.toString()
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          49
+        </td>
+        <td>
+          552
+          -
+          655
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot; tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter1, msg.friendsCount)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          43
+        </td>
+        <td>
+          585
+          -
+          597
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; processed &quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          45
+        </td>
+        <td>
+          654
+          -
+          655
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          48
+        </td>
+        <td>
+          637
+          -
+          653
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.app.Tweet.friendsCount
+        </td>
+        <td style="background: #AEF1AE">
+          msg.friendsCount
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          42
+        </td>
+        <td>
+          554
+          -
+          565
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;worker id &quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          51
+        </td>
+        <td>
+          541
+          -
+          655
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(TweetWorker.this.sender()).!(scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot; tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter1, msg.friendsCount))(TweetWorker.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          53
+        </td>
+        <td>
+          708
+          -
+          724
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter2.+(1)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          52
+        </td>
+        <td>
+          682
+          -
+          704
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Long.&lt;
+        </td>
+        <td style="background: #AEF1AE">
+          msg.friendsCount.&lt;(500)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          54
+        </td>
+        <td>
+          708
+          -
+          724
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.msgCounter2_=
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter2_=(TweetWorker.this.msgCounter2.+(1))
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          59
+        </td>
+        <td>
+          756
+          -
+          774
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.toString
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self.path.toString()
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          62
+        </td>
+        <td>
+          742
+          -
+          846
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot;  tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter2, msg.friendsCount)
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          775
+          -
+          787
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; processed &quot;
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          55
+        </td>
+        <td>
+          744
+          -
+          755
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;worker id &quot;
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          58
+        </td>
+        <td>
+          845
+          -
+          846
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          61
+        </td>
+        <td>
+          828
+          -
+          844
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.app.Tweet.friendsCount
+        </td>
+        <td style="background: #AEF1AE">
+          msg.friendsCount
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          60
+        </td>
+        <td>
+          787
+          -
+          798
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.msgCounter2
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter2
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          733
+          -
+          847
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.log.info(scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot;  tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter2, msg.friendsCount))
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          57
+        </td>
+        <td>
+          798
+          -
+          827
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;  tweets with friends count &quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          969
+          -
+          970
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          71
+        </td>
+        <td>
+          952
+          -
+          968
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.app.Tweet.friendsCount
+        </td>
+        <td style="background: #AEF1AE">
+          msg.friendsCount
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          74
+        </td>
+        <td>
+          856
+          -
+          970
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(TweetWorker.this.sender()).!(scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot; tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter2, msg.friendsCount))(TweetWorker.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          65
+        </td>
+        <td>
+          869
+          -
+          880
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;worker id &quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          64
+        </td>
+        <td>
+          856
+          -
+          864
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          73
+        </td>
+        <td>
+          865
+          -
+          865
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          67
+        </td>
+        <td>
+          923
+          -
+          951
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; tweets with friends count &quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          70
+        </td>
+        <td>
+          912
+          -
+          923
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.actor.TweetWorker.msgCounter2
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.msgCounter2
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          69
+        </td>
+        <td>
+          881
+          -
+          899
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.toString
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self.path.toString()
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          72
+        </td>
+        <td>
+          867
+          -
+          970
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;worker id &quot;, &quot; processed &quot;, &quot; tweets with friends count &quot;, &quot;&quot;).s(TweetWorker.this.self.path.toString(), TweetWorker.this.msgCounter2, msg.friendsCount)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          900
+          -
+          912
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; processed &quot;
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          75
+        </td>
+        <td>
+          988
+          -
+          1019
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.log.info(&quot;Wrong Tweet Message&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          77
+        </td>
+        <td>
+          1039
+          -
+          1056
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Invalid Message&quot;
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          76
+        </td>
+        <td>
+          1028
+          -
+          1036
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          79
+        </td>
+        <td>
+          1028
+          -
+          1056
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          actor.this.`package`.actorRef2Scala(TweetWorker.this.sender()).!(&quot;Invalid Message&quot;)(TweetWorker.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          78
+        </td>
+        <td>
+          1037
+          -
+          1037
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          TweetWorker.this.self
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

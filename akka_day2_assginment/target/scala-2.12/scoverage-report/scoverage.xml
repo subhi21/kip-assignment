@@ -1,0 +1,398 @@
+<scoverage 
+statement-count="115" statements-invoked="72" statement-rate="62.61" branch-rate="100.00" version="1.0" timestamp="1533295443532">
+    <packages>
+        <package name="com.knoldus.actor" statement-count="80" statements-invoked="72" statement-rate="90.00">
+            <classes>
+                <class 
+                name="com.knoldus.actor.TweetWorker" filename="com/knoldus/actor/TweetWorker.scala" statement-count="58" statements-invoked="58" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.actor/TweetWorker/&lt;none&gt;" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="&lt;none&gt;" start="200" end="214" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="&lt;none&gt;" start="192" end="236" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="&lt;none&gt;" start="199" end="199" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="&lt;none&gt;" start="281" end="282" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="&lt;none&gt;" start="258" end="259" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="&lt;none&gt;" start="215" end="235" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.actor/TweetWorker/receive" statement-count="52" statements-invoked="52" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="1039" end="1056" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="756" end="774" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="550" end="550" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="541" end="549" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="429" end="440" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="969" end="970" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="708" end="724" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="742" end="846" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="530" end="531" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="608" end="636" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="339" end="339" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="952" end="968" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="856" end="970" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="775" end="787" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="367" end="389" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="513" end="529" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="597" end="608" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="869" end="880" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="566" end="584" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="856" end="864" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="744" end="755" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="865" end="865" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="845" end="846" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="923" end="951" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="552" end="655" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="418" end="532" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="393" end="409" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="1028" end="1036" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="1028" end="1056" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="912" end="923" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="585" end="597" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="682" end="704" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="483" end="512" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="828" end="844" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="472" end="483" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="787" end="798" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="881" end="899" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="1037" end="1037" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="733" end="847" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="654" end="655" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="708" end="724" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="867" end="970" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="441" end="459" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="798" end="827" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="637" end="653" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="988" end="1019" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="393" end="409" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="427" end="531" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="900" end="912" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="554" end="565" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="541" end="655" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetWorker" class-type="Class" full-class-name="com.knoldus.actor.TweetWorker" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetWorker.scala" method="receive" start="460" end="472" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.knoldus.actor.TweetRouter" filename="com/knoldus/actor/TweetRouter.scala" statement-count="22" statements-invoked="14" statement-rate="63.64" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.actor/TweetRouter/receive" statement-count="13" statements-invoked="5" statement-rate="38.46" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="661" end="696" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="574" end="582" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="725" end="753" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="624" end="646" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="521" end="583" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="487" end="487" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="677" end="695" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="563" end="572" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="734" end="753" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="703" end="718" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="778" end="790" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="550" end="583" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="receive" start="615" end="646" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.actor/TweetRouter/&lt;none&gt;" statement-count="9" statements-invoked="9" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="398" end="422" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="228" end="238" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="341" end="356" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="256" end="334" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="216" end="386" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="179" end="180" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="391" end="432" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="272" end="333" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.actor" class="TweetRouter" class-type="Class" full-class-name="com.knoldus.actor.TweetRouter" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/actor/TweetRouter.scala" method="&lt;none&gt;" start="363" end="380" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.knoldus.app" statement-count="35" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="com.knoldus.app.TwitterStreamApp" filename="com/knoldus/app/TwitterStreamApp.scala" statement-count="35" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.app/TwitterStreamApp/&lt;none&gt;" statement-count="35" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="751" end="764" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="854" end="915" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="533" end="577" line="18" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="1011" end="1024" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="794" end="809" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="967" end="969" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="617" end="619" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="1032" end="1046" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="673" end="677" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="689" end="689" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="978" end="986" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="978" end="979" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="941" end="1052" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="581" end="814" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="736" end="749" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="481" end="498" line="17" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="994" end="1008" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="607" end="615" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="785" end="792" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="839" end="938" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="994" end="1024" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="682" end="810" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="643" end="660" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="617" end="626" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="692" end="810" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="967" end="976" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="988" end="988" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="628" end="628" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="698" end="734" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="367" end="396" line="15" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="994" end="1008" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="607" end="608" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="766" end="783" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="924" end="937" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.app" class="TwitterStreamApp" class-type="Object" full-class-name="com.knoldus.app.TwitterStreamApp" source="/home/knoldus/IdeaProjects/akka_day2_assginment/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" method="&lt;none&gt;" start="1009" end="1009" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
