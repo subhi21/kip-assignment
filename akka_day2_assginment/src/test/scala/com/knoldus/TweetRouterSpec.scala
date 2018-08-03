@@ -22,7 +22,7 @@ class TweetRouterSpec extends TestKit(ActorSystem("tweetAppSystem")) with Implic
         val friendsCount = 800
         router ! List(Tweet("1", createdAt, userId, "Ankita", "India", friendsCount))
         expectMsg("worker id akka://tweetAppSystem/user/$a/$a processed 1 tweets with friends count 800")
-      
+
     }
   }
 

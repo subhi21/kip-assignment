@@ -48,14 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetRouterSpec.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TweetRouterSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/knoldus/TweetRouterSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#21#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -152,6 +161,7 @@
         <option value="$PROJECT_DIR$/scalastyle-config.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/app/TwitterStreamApp.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/knoldus/TweetRouterSpec.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -175,71 +185,6 @@
             <path>
               <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="knoldus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="knoldus" type="462c0819:PsiDirectoryNode" />
-              <item name="actor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="knoldus" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-day2&amp;3-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka_day2_assginment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="knoldus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -612,10 +557,10 @@
       <window_info anchor="right" id="Maven Projects" order="12" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3295082" />
       <window_info id="Capture Tool" order="10" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.804401" visible="true" weight="0.23463687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.804401" visible="true" weight="0.23463687" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="13" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.2964072" />
       <window_info id="Structure" order="1" sideWeight="0.19559902" side_tool="true" visible="true" weight="0.23463687" />
@@ -656,7 +601,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/util/MessagePassingActor.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/actor/TweetJsonWritterActor.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/util/JsonHelper.scala" />
@@ -820,10 +764,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/knoldus/TweetRouterSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#21#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
